@@ -1,0 +1,104 @@
+.firstDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 80%;
+    margin: 2% auto;
+    padding: 5%;
+    background: rgb(36, 32, 32);
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+}
+h1 ,h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+span {
+    color: rgb(255, 255, 255);
+}
+.firstDivA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: beige;
+    width: 30%;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    background: rgb(51,184,180);
+}
+.firstDivB{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: beige;
+    width: 30%;
+    height: 50px;
+    padding: 5px;
+    background: rgb(252,82,79);
+    border: none;
+}
+.secondDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    margin: 0% auto;
+    padding: 5%;
+    background: rgb(216, 201, 201);
+    border-radius: 30px;
+    gap: 5px;
+}
+#subject {
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+input {
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: auto;
+}
+#name{
+    width: 30%;
+}
+#grade{
+    width: 10%;
+}
+button {
+    font-weight: bold;
+    width: 10%;
+    padding: 10px 0;
+    background-color: rgb(209, 173, 132);
+    border: none;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.thirdDiv, span {
+    color: black;
+}
+.thirdDiv{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30%;
+    margin: 5% 10%;
+}
+
+
+

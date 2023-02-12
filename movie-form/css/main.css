@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-weight: 600;
+    padding: 10px;
+}
+
+label {
+    font-weight: 600;
+}
+
+.container {
+    border: solid black 1px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.movie-div,
+.program-div {
+    border: solid black 1px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 98%;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    border-radius: 4px;
+    font-size: 14px;
+    border: solid 2px rgba(36, 36, 90, 0.3);
+    display: block;
+    padding: 10px 5px;
+    margin: 10px auto;
+}
+
+select {
+    width: 100%;
+    font-size: 14px;
+    display: block;
+    padding: 10px 5px;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    background-color: rgb(245, 239, 239);
+}
+
+input[type="submit"] {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin: auto;
+    background-color: #4CAF4F;
+    color: white;
+    margin-bottom: 10px;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+

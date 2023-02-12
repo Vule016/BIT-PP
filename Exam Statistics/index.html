@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./CSS/main.css">
+  <title>Exam statistics</title>
+</head>
+<body>
+
+    <div class="firstDiv" style="background-image: url(./exam.jpg);">
+        <h1 class="h1">Exam statistic June</h1>
+        <h2 class="h2">Total students:<div id="total"></div> Average:<div id="average"></div></h2>
+        <div class="firstDivA">PASSED<div id="numPass"></div></div>
+        <div class="firstDivB">FAILED<div id="numFai"></div></div>
+    </div>
+    <form class="secondDiv" class="input">
+        <select id="subject">
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="C++">C++</option>
+            <option value="JavaScript">JavaScript</option>
+        </select>
+        <input id = "name1" type="text" placeholder="Your name">
+        <input id = "surname" type="text" placeholder="Your surname">
+        <input id = "grade" type="text" placeholder="Grade">
+        <button id = "add-button" type="button">ADD</button>
+    </form>
+<div class = "thirdDiv">
+        <div id="thirdDivA"><span>PASSED</span>
+            <div id = "passed"></div>
+        </div>
+        <div id="thirdDivA"><span>FAILED</span>
+            <div id = "failed"></div>
+        </div>
+    </div>
+  
+    <script src="./JS/subject.js"></script>
+    <script src="./JS/student.js"></script>
+    <script src="./JS/form.js"></script>
+    <script src="./JS/exam.js"></script>
+    <script src="./JS/app.js"></script>
+</body>
+</html>
